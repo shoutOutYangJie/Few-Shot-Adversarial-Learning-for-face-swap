@@ -15,7 +15,7 @@ video_path = [os.path.abspath(os.path.join(dataset,i)) for i in person_name]
 
 # save all video clips
 all_video_path = []
-f = open('video_clips_path','w')
+f = open('video_clips_path.txt','w')
 print('saving video path!!')
 for v in video_path:
     each_person_clip = os.path.join(v,'1.6')
@@ -29,7 +29,7 @@ if not os.path.exists('../../dataset/voxcelb1/landmarks'):
     os.makedirs('../../dataset/voxcelb1/landmarks')
 
 print('saving landmarks!!!')
-f = open('video_landmarks_path','w')
+f = open('video_landmarks_path.txt','w')
 for v in all_video_path:
     print(v)
     for i in os.listdir(v):
