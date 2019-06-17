@@ -18,7 +18,7 @@ For test you shouldn't preprocess all data in the VoxCeleb dataset, because it's
 
 2. download VGGFace weights for perceptual loss.
 
-you can download from [here](http://www.robots.ox.ac.uk/~albanie/models/pytorch-mcn/vgg_m_face_bn_dag.py)[on this website](http://www.robots.ox.ac.uk/~albanie/pytorch-models.html).
+you can download from [here](http://www.robots.ox.ac.uk/~albanie/models/pytorch-mcn/vgg_m_face_bn_dag.py) [on this website](http://www.robots.ox.ac.uk/~albanie/pytorch-models.html).
 make sure that put the weight file under the "./pretrained" file path.
 
 3. start to train the whole network.
