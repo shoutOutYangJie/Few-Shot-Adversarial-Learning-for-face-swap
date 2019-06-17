@@ -5,7 +5,7 @@ This is a unofficial re-implementation of the paper "Few-Shot Adversarial Learni
 The paper from SAMSUNG AI lab presents a new novel and efficient method for face swap, which has amazing performance. I am a student and interested in this paper, so I try to reproduce it.
 I have writen the script for getting landmarks dataset, and dataloader pipeline. I also construct the whole network including Embedding, Generator and Discriminator with loss functions. Everything is done according to the paper.
 But, due to unspecific network descripted by the paper, I found that there are some mistakes in Generator, especially for the Adaptive instance normalization. The training process gets weird results, which you can look at it from "training_visual" file.
-For getting more understanding about this amazing and great work, I open source this projection and invite more people who are interested in it to become contributor. If someone reproduces it successfully in the future, please tell me. Thanks!
+**For getting more understanding about this amazing and great work, I open source this projection and invite more people who are interested in it to become contributor.** If someone reproduces it successfully in the future, please tell me. Thanks!
 
 # how to use
 
